@@ -200,3 +200,19 @@ width:220px;
 }
 
 }
+.map-section{
+    width:90%;
+    margin:40px auto;
+    text-align:center;
+}
+
+.map-section h2{
+    color:#ffd700;
+    margin-bottom:20px;
+    font-size:32px;
+}
+
+.map-section iframe{
+    box-shadow:0 5px 15px rgba(0,0,0,.3);
+    border-radius:15px;
+}
