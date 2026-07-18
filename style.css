@@ -243,3 +243,37 @@ width:220px;
     bottom:20px;
     background:#25D366;
 }
+.gallery{
+    padding:40px 20px;
+    text-align:center;
+}
+
+.gallery-grid{
+    display:grid;
+    grid-template-columns:repeat(auto-fit,minmax(140px,1fr));
+    gap:15px;
+}
+
+.gallery-item img{
+    width:100%;
+    border-radius:12px;
+}
+
+.gallery-item p{
+    font-weight:bold;
+    margin-top:8px;
+}
+
+.review{
+    padding:40px 20px;
+    background:#f4f4f4;
+    text-align:center;
+}
+
+.review-box{
+    background:#fff;
+    padding:15px;
+    margin:15px 0;
+    border-radius:10px;
+    box-shadow:0 2px 8px rgba(0,0,0,.15);
+}
